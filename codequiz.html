@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <title>Code Quiz</title>
+  </head>
+  <body>
+    <!--- this is the counter -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="welcome">View Highscore: </h2>
+        </div>
+        <div class="col-md-6">
+          <h2 id="countdown">Time: </h1>
+        </div>
+         <!-- <h3 id="main"></h2>--> 
+      </div>
+    </div>
+
+    <!--Card from bootstrap to start quiz-->
+    <div class="card text-center">
+      <div class="card-header">
+      </div>
+      <div class="card-body intro">
+        <h2 class="card-title">Code Quiz Challenge</h2>
+        <p class="card-text">Try to answer the following questions within the time
+          limit. Keep in mind that incorrect answers will penalized your score time by ten seconds! 
+        </p>
+        <a href="#" class="btn btn-primary">Start Quiz</a>
+      </div>
+      <div class="card-footer text-muted">
+       
+      </div>
+    </div>
+
+<!--question format-->
+<div class="card text-center">
+      <div class="card-body">
+        <h5 class="title" id="titleQuestion" ></h5>
+          <button class="btn btn-primary"></button>
+        </div> 
+      </div>
+
+
+
+    <script src="./script.js"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
