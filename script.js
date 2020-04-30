@@ -29,6 +29,7 @@ var questions = [
   },
 ]
 
+
 var timerEl = document.getElementById("countdown");
 var quizStart = document.querySelector("btn");
 var timeLeft = 75;
